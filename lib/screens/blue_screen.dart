@@ -26,6 +26,8 @@ class _HomeState extends State<BlueScreen> {
   var humidity;
   var windSpeed;
 
+// sik
+
   Future getWeather() async {
     http.Response response = await http.get(Uri.parse(
         "https://api.openweathermap.org/data/2.5/weather?lat=41.69411&lon=44.83368&units=metric&appid=b421617babdcf5e2c95b9e37f33e2764"));
